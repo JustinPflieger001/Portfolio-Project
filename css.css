@@ -2,7 +2,7 @@ main {
     margin-top: 25%;
 }
 
-.headd {
+.headd1 {
     height: 25%;
     background-color: black;
 }
@@ -62,59 +62,355 @@ main {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    align-items: center;
+    margin-right: 9px;
+    margin-left: 9px;
 }
 .flex > div {
     width: 100%;
     text-align: center;
-    padding:9px;
 }
 .a {
     color: white;
 }
 
 .a:visited {
-    color: lightgrey;
+    color: white;
 }
-.eins:hover{
+/*Home Page*/
+.eins1 {
+    padding:9px;
+    margin-top: 9px;
+}
+.zwei1 {
+    padding:9px;
+    margin-top: 9px;
+}
+.drei1 {
+    padding:9px;
+    margin-top: 9px;
+}
+.vier1 {
+    padding:9px;
+    margin-top: 9px;
+}
+.funf1 {
+    padding:9px;
+    margin-top: 9px;
+}
+.eins1:hover{
     background-color: white;
     transition: .65s;
 }
-.eins:hover > a{
+.eins1:hover > a{
     transition: .65s;
     color: black;
 }
-.zwei:hover{
+.zwei1:hover{
     background-color: white;
     transition: .65s;
 }
-.zwei:hover > a{
+.zwei1:hover > a{
     transition: .65s;
     color: black;
 }
-.drei:hover{
+.drei1:hover{
     background-color: white;
     transition: .65s;
 }
-.drei:hover > a{
+.drei1:hover > a{
     transition: .65s;
     color: black;
 }
-.vier:hover{
+.vier1:hover{
     background-color: white;
     transition: .65s;
 }
-.vier:hover > a{
+.vier1:hover > a{
     transition: .65s;
     color: black;
 }
-.funf:hover{
+.funf1:hover{
     background-color: white;
     transition: .65s;
 }
-.funf:hover > a{
+.funf1:hover > a{
     transition: .65s;
     color: black;
 }
+
+/*About Page*/
+.eins2 {
+    padding:9px;
+    margin-top: 9px;
+}
+.zwei2 {
+    padding:9px;
+    margin-top: 9px;
+}
+.drei2 {
+    padding:9px;
+    margin-top: 9px;
+}
+.vier2 {
+    padding:9px;
+    margin-top: 9px;
+}
+.funf2 {
+    padding:9px;
+    margin-top: 9px;
+}
+.eins2:hover{
+    background-color: white;
+    transition: .65s;
+}
+.eins2:hover > a{
+    transition: .65s;
+    color: #000acc;
+}
+.zwei2:hover{
+    background-color: white;
+    transition: .65s;
+}
+.zwei2:hover > a{
+    transition: .65s;
+    color: #000acc;
+}
+.drei2:hover{
+    background-color: white;
+    transition: .65s;
+}
+.drei2:hover > a{
+    transition: .65s;
+    color: #000acc;
+}
+.vier2:hover{
+    background-color: white;
+    transition: .65s;
+}
+.vier2:hover > a{
+    transition: .65s;
+    color: #000acc;
+}
+.funf2:hover{
+    background-color: white;
+    transition: .65s;
+}
+.funf2:hover > a{
+    transition: .65s;
+    color: #000acc;
+}
+.headd2 {
+    height: 25%;
+    background-color: #000acc;
+}
+
+/*Resume Page*/
+.eins3 {
+    padding:9px;
+    margin-top: 9px;
+}
+.zwei3 {
+    padding:9px;
+    margin-top: 9px;
+}
+.drei3 {
+    padding:9px;
+    margin-top: 9px;
+}
+.vier3 {
+    padding:9px;
+    margin-top: 9px;
+}
+.funf3 {
+    padding:9px;
+    margin-top: 9px;
+}
+.eins3:hover{
+    background-color: white;
+    transition: .65s;
+}
+.eins3:hover > a{
+    transition: .65s;
+    color: #00cc11;
+}
+.zwei3:hover{
+    background-color: white;
+    transition: .65s;
+}
+.zwei3:hover > a{
+    transition: .65s;
+    color: #00cc11;
+}
+.drei3:hover{
+    background-color: white;
+    transition: .65s;
+}
+.drei3:hover > a{
+    transition: .65s;
+    color: #00cc11;
+}
+.vier3:hover{
+    background-color: white;
+    transition: .65s;
+}
+.vier3:hover > a{
+    transition: .65s;
+    color: #00cc11;
+}
+.funf3:hover{
+    background-color: white;
+    transition: .65s;
+}
+.funf3:hover > a{
+    transition: .65s;
+    color: #00cc11;
+}
+.headd3 {
+    height: 25%;
+    background-color: #00cc11;
+}
+
+/*Portfolio Page*/
+.eins4 {
+    padding:9px;
+    margin-top: 9px;
+}
+.zwei4 {
+    padding:9px;
+    margin-top: 9px;
+}
+.drei4 {
+    padding:9px;
+    margin-top: 9px;
+}
+.vier4 {
+    padding:9px;
+    margin-top: 9px;
+}
+.funf4 {
+    padding:9px;
+    margin-top: 9px;
+}
+.eins4:hover{
+    background-color: white;
+    transition: .65s;
+}
+.eins4:hover > a{
+    transition: .65s;
+    color: #ccc500;
+}
+.zwei4:hover{
+    background-color: white;
+    transition: .65s;
+}
+.zwei4:hover > a{
+    transition: .65s;
+    color: #ccc500;
+}
+.drei4:hover{
+    background-color: white;
+    transition: .65s;
+}
+.drei4:hover > a{
+    transition: .65s;
+    color: #ccc500;
+}
+.vier4:hover{
+    background-color: white;
+    transition: .65s;
+}
+.vier4:hover > a{
+    transition: .65s;
+    color: #ccc500;
+}
+.funf4:hover{
+    background-color: white;
+    transition: .65s;
+}
+.funf4:hover > a{
+    transition: .65s;
+    color: #ccc500;
+}
+.headd4 {
+    height: 25%;
+    background-color: #ccc500;
+}
+
+/*Contact Page*/
+.eins5 {
+    padding:9px;
+    margin-top: 9px;
+}
+.zwei5 {
+    padding:9px;
+    margin-top: 9px;
+}
+.drei5 {
+    padding:9px;
+    margin-top: 9px;
+}
+.vier5 {
+    padding:9px;
+    margin-top: 9px;
+}
+.funf5 {
+    padding:9px;
+    margin-top: 9px;
+}
+.eins5:hover{
+    background-color: white;
+    transition: .65s;
+}
+.eins5:hover > a{
+    transition: .65s;
+    color: #cc0000;
+}
+.zwei5:hover{
+    background-color: white;
+    transition: .65s;
+}
+.zwei5:hover > a{
+    transition: .65s;
+    color: #cc0000;
+}
+.drei5:hover{
+    background-color: white;
+    transition: .65s;
+}
+.drei5:hover > a{
+    transition: .65s;
+    color: #cc0000;
+}
+.vier5:hover{
+    background-color: white;
+    transition: .65s;
+}
+.vier5:hover > a{
+    transition: .65s;
+    color: #cc0000;
+}
+.funf5:hover{
+    background-color: white;
+    transition: .65s;
+}
+.funf5:hover > a{
+    transition: .65s;
+    color: #cc0000;
+}
+.headd5 {
+    height: 25%;
+    background-color: #cc0000;
+}
+
+
 .bott {
     padding-bottom: 9px;
+}
+.downbott {
+    padding-bottom: 7px
+}
+.button {
+    border-radius: 50%;
+    background-color: white;
 }
