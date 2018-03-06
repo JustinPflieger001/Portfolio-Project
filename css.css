@@ -46,11 +46,11 @@ main {
 
 @keyframes animatebottom {
     from {
-        bottom: -300px;
+        bottom: 0px;
         opacity: 0
     }
     to {
-        bottom: 0;
+        bottom: -300px;
         opacity: 1
     }
 }
