@@ -1,7 +1,8 @@
-function dopen() {
+function d_open() {
     document.getElementById("dropdown").style.display = "block";
+    document.getElementById("dropup").style.display = "none";
 }
-
-function dclose() {
+function d_close() {
     document.getElementById("dropdown").style.display = "none";
+    document.getElementById("dropup").style.display = "block";
 }
