@@ -11,33 +11,16 @@
 
 <body>
     <header>
-        <div>
-            <div class="w3-animate-top headd5" id="dropdown" style="display: none">
-                <div class="flex bott">
-                    <div class="sect">
-                        <a href="index.html" class="a">Home</a>
-                    </div>
-                    <div class="sect">
-                        <a href="about.html" class="a">About Me</a>
-                    </div>
-                    <div class="sect">
-                        <a href="resume.html" class="a">Résumé</a>
-                    </div>
-                    <div class="sect">
-                        <a href="portfolio.html" class="a">Portfolio</a>
-                    </div>
-                    <div class="sect">
-                        <a href="contact.html" class="a">Contact Info</a>
-                    </div>
-                </div>
-                <div class="flex downbott">
-                    <button class="glyphicon glyphicon-menu-up button w3-animate-bottom" onclick="animation(); setTimeout(d_close, 3000);" ></button>
-                </div>
-            </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
         </div>
         
         <div class="flex">
-            <button class="glyphicon glyphicon-menu-down button" onclick="d_open()" id="dropup"></button>
+            <button class="glyphicon glyphicon-menu-down button" onclick="openNav()" id="dropup"></button>
         </div>
     </header>
 
