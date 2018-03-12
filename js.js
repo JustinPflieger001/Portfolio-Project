@@ -1,7 +1,7 @@
 function openNav() {
-    document.getElementById("mySidenav").style.height = "13%";
+    document.getElementById("mySidenav").style.marginTop = "0px";
 }
 
 function closeNav() {
-    document.getElementById("mySidenav").style.height = "0";
+    document.getElementById("mySidenav").style.marginTop = "-180px";
 }
