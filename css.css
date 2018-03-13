@@ -97,3 +97,86 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+#home .image-card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #efefef;
+}
+
+#home .image-card-container * {
+    transition-duration: .5s;
+}
+.card {
+    width: 350px;
+    height: 350px;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 20px;
+    margin: 50px
+}
+
+#home .card h3 {
+    color: #fff;
+}
+
+# home .card:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 3
+}
+
+#home .image-card-container a {
+    text-decoration: none;
+    background-image: url(http://via.placeholder.com/350x350);
+    border-radius: 15px;
+    margin: 10px;
+}
+
+#home .image-card-container h3 {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 1.5em;
+}
+
+#home .image-card-container p {
+    text-align: center;
+    text-indent: 0px;
+    padding: 10px;
+}
+#home .main-topic-cards {
+    padding-top: 50px;
+}
+
+#home section {
+    padding-top: 0;
+}
+
+#about .card{
+    background-image: url(img/About.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#resume .card{
+    background-image: url(img/Resume.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#port .card{
+    background-image: url(img/Portfolio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#conch .card{
+    background-image: url(img/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
