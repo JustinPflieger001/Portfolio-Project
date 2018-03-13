@@ -5,3 +5,7 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.height = "0";
 }
+
+function border() {
+    document.getElementsByClassName("bord").style.border = "2px solid red";
+}
