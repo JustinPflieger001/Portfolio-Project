@@ -6,38 +6,27 @@
     margin-right: 9px;
     margin-left: 9px;
 }
+
 .flex > div {
     width: 100%;
     text-align: center;
 }
-.c {
-    color: white;
-}
-.c:visited {
-    color: white;
-}
-.a {
-    color: grey;
 }
 
-.a:visited {
-    color: grey;
-}
 .sect {
-    padding:9px;
+    padding: 9px;
     margin-top: 9px;
     margin-bottom: 9px;
 }
-.sect:hover{
+
+.sect:hover {
     background-color: white;
     transition: .65s;
 }
-.sect:hover > a{
+
+.sect:hover > a {
     transition: .65s;
     color: #015b97;
-}
-.bott {
-    padding-bottom: 9px;
 }
 .bott{
     padding:9px;
@@ -49,6 +38,7 @@
 .button {
     border-radius: 50%;
     background-color: white;
+    margin-top: 9px;
 }
 
 .sidenav {
@@ -88,6 +78,7 @@
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+
 }
 
 .dropdown-content a:hover {
@@ -96,6 +87,7 @@
 
 .dropdown:hover .dropdown-content {
     display: block;
+    transition: 0.7s;
 }
 
 .feet {
@@ -199,4 +191,5 @@
 .center {
     text-align: center;
     font-size: 20px;
+    background-size: cover;
 }
