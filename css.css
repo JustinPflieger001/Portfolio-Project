@@ -34,7 +34,7 @@
 }
 .sect:hover > a{
     transition: .65s;
-    color: #cc0000;
+    color: #015b97;
 }
 .bott {
     padding-bottom: 9px;
@@ -98,85 +98,105 @@
     display: block;
 }
 
-#home .image-card-container {
+.feet {
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.image-card-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
-    background-color: #efefef;
 }
 
-#home .image-card-container * {
-    transition-duration: .5s;
+.image-card-container * {
+    transition: .25s;
 }
+
+.image-card-container a:hover {
+    text-decoration: none;
+}
+
+.image-card-container .row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
 .card {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     color: rgba(255, 255, 255, 0);
-    background-color: rgba(0, 0, 0, 0.0);
-    border-radius: 20px;
-    margin: 50px
 }
 
-#home .card h3 {
+.card h3 {
     color: #fff;
 }
 
-# home .card:hover {
+.card:hover {
     color: rgba(255, 255, 255, 1);
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 3
+    background-color: rgba(0, 0, 0, 0.4);
 }
-
-#home .image-card-container a {
-    text-decoration: none;
-    background-image: url(http://via.placeholder.com/350x350);
-    border-radius: 15px;
-    margin: 10px;
-}
-
-#home .image-card-container h3 {
+.image-card-container h3 {
     text-align: center;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.4);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     font-size: 1.5em;
 }
-
-#home .image-card-container p {
+.image-card-container p {
     text-align: center;
     text-indent: 0px;
     padding: 10px;
+    font-size: 20px;
 }
-#home .main-topic-cards {
+
+#one {
+    background-image: url(img/About.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#two{
+    background-image: url(img/Resume.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#three {
+    background-image: url(img/Portfolio.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#four {
+    background-image: url(img/contact.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main-topic-cards {
     padding-top: 50px;
 }
 
 #home section {
     padding-top: 0;
+    padding-bottom: 0;
 }
 
-#about .card{
-    background-image: url(img/About.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+.image-card-container {
+    z-index: -20;
+    padding-bottom: 105px;
 }
-#resume .card{
-    background-image: url(img/Resume.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#port .card{
-    background-image: url(img/Portfolio.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#conch .card{
-    background-image: url(img/contact.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/*Cards inspired by Nataniel Barragan*/
 
+.center {
+    text-align: center;
+    font-size: 20px;
+}
