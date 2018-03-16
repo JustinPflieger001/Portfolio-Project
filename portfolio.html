@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Justin Pflieger</title>
     <link rel="stylesheet" href="css.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  
+
 </head>
 
 <body>
     <header>
         <div>
             <div class="w3-animate-top headd5 sidenav" id="mySidenav">
-               <div class="flex downbott">
+                <div class="flex downbott">
                     <button onclick="closeNav()" class="glyphicon glyphicon-menu-up button w3-animate-bottom"></button>
                 </div>
                 <div class="flex bott">
@@ -39,17 +40,79 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="flex">
             <button class="glyphicon glyphicon-menu-down button" onclick="openNav()"></button>
         </div>
     </header>
-    <main>
-        
+    <main id="home">
+        <section class="center">
+            <h2>Portfolio</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt atque nisi temporibus facere laboriosam, totam ab placeat incidunt necessitatibus ex doloribus repudiandae iste vero rerum, officiis laudantium beatae ratione quaerat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+        </section>
+        <section class="main-topic-cards">
+            <div class="image-card-container">
+                <div class="row">
+                    <a href="about.html" id="five">
+                        <div class="card">
+                            <h3>Literature</h3>
+                            <p>
+                                A portfolio collection of writing pieces by Justin Pflieger
+                            </p>
+                        </div>
+                    </a>
+                    <a href="resume.html" id="six">
+                        <div class="card">
+                            <h3>Web Development</h3>
+                            <p>
+                                A collection that displays the works of code, and their resulting web pages
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="row">
+                    <a href="portfolio.html" id="seven">
+                        <div class="card">
+                            <h3>Illustrations</h3>
+                            <p>
+                                A collection of work: including Photoshop, Art, Code, and Writing
+                            </p> 
+                        </div>
+                    </a>
+                    <a href="portfolio.html" id="eight">
+                        <div class="card">
+                            <h3>Photoshop</h3>
+                            <p>
+                                A showcase of art made with the Adobe product: Photoshop
+                            </p> 
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-        
+        <div class="flex feet">
+            <div class="sect bott">
+                <a href="index.html" class="d">Home</a>
+            </div>
+            <div class="sect bott">
+                <a href="about.html" class="d">About me</a>
+            </div>
+            <div class="sect bott">
+                <a href="resume.html" class="d">Résumé</a>
+            </div>
+            <div class="sect bott">
+                <a href="portfolio.html" class="d">Portfolio</a>
+            </div>
+            <div class="sect bott">
+                <a href="contact.html" class="d">Contact Info</a>
+            </div>
+        </div>
     </footer>
     <script src="js.js" type="text/javascript"></script>
 </body>
-</html> 
+
+</html>
