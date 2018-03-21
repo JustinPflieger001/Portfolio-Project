@@ -126,7 +126,7 @@
 .feet {
     background-color: black;
     width: 100%;
-    margin: 0;
+    margin: 100px 0 0 0;
     padding: 9px;
 }
 
@@ -267,18 +267,30 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+#slides {
+
+}
+.yes{
+    display: block;
+}
+.no {
+    display: none;
+}
 .slone {
-    width: 100vw;
-    position: absolute;
-    margin-right: 0px;
-    color: red;
+    background-image: url(img/Draw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
 }
 .sltwo {
-    width: 100vw;
-    margin-right: -3000px;
-    color: blue;
+    background-image: url(img/Phott.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
 }
 .slthree {
-    width: 100vw;
-    margin-right: -6000px;
+    background-image: url(img/code.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
 }
