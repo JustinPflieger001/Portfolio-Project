@@ -270,8 +270,10 @@
 #slides {
 
 }
-.yes{
-    display: block;
+.cont{
+    background-color: #015b97;
+    height: 830px;
+    max-width: 1310px;
 }
 .no {
     display: none;
@@ -280,17 +282,27 @@
     background-image: url(img/Draw.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 800px;
+    max-width: 1280px;
+    box-shadow: 5px 7px;
+    border: 3px groove white;
 }
 .sltwo {
     background-image: url(img/Phott.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 800px;
+    max-width: 1280px;
+    box-shadow: 5px 7px;
+    border: 3px groove white;
 }
 .slthree {
     background-image: url(img/code.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 800px;
+    max-width: 1280px;
+    box-shadow: 5px 7px;
+    border: 3px groove white;
+    transition: .5s;
 }

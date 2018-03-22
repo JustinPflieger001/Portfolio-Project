@@ -36,6 +36,5 @@ function slidee() {
             break;
 
     }
-    console.log(s);
      setTimeout(slidee, 3000);
 }
