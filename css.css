@@ -300,7 +300,7 @@
     max-width: 1280px;
     box-shadow: 5px 7px;
     border: 3px groove white;
-    transition: .5s;
+    transition: 1s;
     position: absolute;
 }
 .sltwo {
@@ -311,7 +311,7 @@
     max-width: 1280px;
     box-shadow: 5px 7px;
     border: 3px groove white;
-    transition: .5s;
+    transition: 1s;
     position: absolute;
 }
 .slthree {
@@ -322,7 +322,7 @@
     max-width: 1280px;
     box-shadow: 5px 7px;
     border: 3px groove white;
-    transition: .5s;
+    transition: 1s;
     position: absolute;
 }
 .contain{
