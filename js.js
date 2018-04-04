@@ -9,7 +9,6 @@ function closeNav() {
 
     var count = 0;
 function slidee() {
-
     var s = document.getElementById("slides").children;
     switch (count) {
         case 0:
