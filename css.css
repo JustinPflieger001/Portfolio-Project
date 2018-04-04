@@ -292,39 +292,25 @@
 .no {
     opacity: 0;
 }
-.slone {
-    background-image: url(img/Draw.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 800px;
-    max-width: 1280px;
-    box-shadow: 5px 7px;
-    border: 3px groove white;
-    transition: 1s;
-    position: absolute;
-}
-.sltwo {
-    background-image: url(img/Phott.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 800px;
-    max-width: 1280px;
-    box-shadow: 5px 7px;
-    border: 3px groove white;
-    transition: 1s;
-    position: absolute;
-}
-.slthree {
-    background-image: url(img/code.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 800px;
-    max-width: 1280px;
-    box-shadow: 5px 7px;
-    border: 3px groove white;
-    transition: 1s;
-    position: absolute;
-}
+
 .contain{
     max-width: 1280px;
+}
+.Art {
+    transform: rotate(90deg);
+    max-height: 600px;
+    width: auto;
+    box-shadow: 5px 7px;
+    border: 3px groove white;
+    transition: 1s;
+    position: absolute;
+}
+.Photo {
+    max-height: 600px;
+    width: auto;
+    box-shadow: 5px 7px;
+    border: 3px groove white;
+    transition: 1s;
+    position: absolute;
+    background-color: white;
 }

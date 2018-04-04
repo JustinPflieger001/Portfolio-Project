@@ -8,40 +8,51 @@ function closeNav() {
 }
 
     var count = 0;
-function slidee() {
+function slideeArt() {
     var s = document.getElementById("slides").children;
-    switch (count) {
-        case 0:
-            s[0].classList.add("no");
-            s[1].classList.remove("no");
-            break;
-        case 1:
-            s[1].classList.add("no");
-            s[2].classList.remove("no");
-            break;
-        case 2:
-            s[2].classList.add("no");
-            s[0].classList.remove("no");
-            count = -1;
-            break;
-        default:
-            count = -1;
-            break;
+        switch (count) {
+            case 0:
+                s[0].classList.add("no");
+                s[1].classList.remove("no");
+                break;
+            case 1:
+                s[1].classList.add("no");
+                s[2].classList.remove("no");
+                break;
+            case 2:
+                s[2].classList.add("no");
+                s[3].classList.remove("no");
+                break;
+            case 3:
+                s[3].classList.add("no");
+                s[4].classList.remove("no");
+                break;
+            case 4:
+                s[4].classList.add("no");
+                s[5].classList.remove("no");
+                break;
+            case 5:
+                s[5].classList.add("no");
+                s[0].classList.remove("no");
+                count = -1;
+                break;
+            default:
+                count = -1;
+                break;
 
-    }
-    count++;
+        }
+        count++;
     console.log(document.getElementById("slides").children);
     console.log(count);
 }
-function slideeR() {
+function slideeRArt() {
     var s = document.getElementById("slides").children;
     switch (count) {
         case 0:
             s[0].classList.add("no");
-            s[2].classList.remove("no");
-            count = 3;
+            s[5].classList.remove("no");
+            count = 6;
             break;
-
         case 1:
             s[1].classList.add("no");
             s[0].classList.remove("no");
@@ -50,8 +61,20 @@ function slideeR() {
             s[2].classList.add("no");
             s[1].classList.remove("no");
             break;
+        case 3:
+            s[3].classList.add("no");
+            s[2].classList.remove("no");
+            break;
+        case 4:
+            s[4].classList.add("no");
+            s[3].classList.remove("no");
+            break;
+        case 5:
+            s[5].classList.add("no");
+            s[4].classList.remove("no");
+            break;
         default:
-            count = 2;
+            count = 6;
             break;
 
     }
