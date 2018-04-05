@@ -1,10 +1,30 @@
 
 function openNav() {
-    document.getElementById("mySidenav").style.marginTop = "0px";
+    document.getElementById("myNav").style.marginTop = "0px";
 }
 
 function closeNav() {
-    document.getElementById("mySidenav").style.marginTop = "-180px";
+    document.getElementById("myNav").style.marginTop = "-180px";
+}
+
+function sizzeOne() {
+    document.getElementById("show").style.display = "block";
+    document.getElementById("a").classList.remove("no");
+}
+
+function sizzeTwo() {
+    document.getElementById("show").style.display = "block";
+    document.getElementById("b").classList.remove("no");
+}
+
+function sizzeThree() {
+    document.getElementById("show").style.display = "block";
+    document.getElementById("c").classList.remove("no");
+}
+
+function sizzeFour() {
+    document.getElementById("show").style.display = "block";
+    document.getElementById("d").classList.remove("no");
 }
 
     var count = 0;
