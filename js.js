@@ -6,29 +6,84 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.marginTop = "-180px";
 }
-
+var coun = 0;
 function sizzeOne() {
-    document.getElementById("show").classList.remove("C");
-    document.getElementById("a").classList.remove("no");
-    document.getElementById("slides").style.width = "50%"
+    switch (coun) {
+        case 0:
+            document.getElementById("show").classList.remove("C");
+            document.getElementById("a").classList.remove("no");
+            document.getElementById("slides").style.width = "50%"
+            coun = 1;
+            break;
+        case 1:
+            document.getElementById("show").classList.add("C");
+            document.getElementById("a").classList.add("no");
+            document.getElementById("slides").style.width = "100%"
+        coun = 0;
+            break;
+        default:
+            break;
+    }
+
 }
 
 function sizzeTwo() {
-    document.getElementById("show").classList.remove("C");
-    document.getElementById("b").classList.remove("no");
-    document.getElementById("slides").style.width = "50%"
+    switch (coun) {
+        case 0:
+            document.getElementById("show").classList.remove("C");
+            document.getElementById("b").classList.remove("no");
+            document.getElementById("slides").style.width = "50%"
+            coun = 1;
+            break;
+        case 1:
+            document.getElementById("show").classList.add("C");
+            document.getElementById("b").classList.add("no");
+            document.getElementById("slides").style.width = "100%"
+            coun = 0;
+            break;
+        default:
+            break;
+    }
+
 }
 
 function sizzeThree() {
-    document.getElementById("show").classList.remove("C");
-    document.getElementById("c").classList.remove("no");
-    document.getElementById("slides").style.width = "50%"
+switch (coun) {
+    case 0:
+        document.getElementById("show").classList.remove("C");
+        document.getElementById("c").classList.remove("no");
+        document.getElementById("slides").style.width = "50%"
+        coun = 1;
+        break;
+    case 1:
+        document.getElementById("show").classList.add("C");
+        document.getElementById("c").classList.add("no");
+        document.getElementById("slides").style.width = "100%"
+        coun = 1;
+        break;
+    default:
+        break;
+}
 }
 
 function sizzeFour() {
-    document.getElementById("show").classList.remove("C");
-    document.getElementById("d").classList.remove("no");
-    document.getElementById("slides").style.width = "50%"
+switch (coun) {
+    case 0:
+        document.getElementById("show").classList.remove("C");
+        document.getElementById("d").classList.remove("no");
+        document.getElementById("slides").style.width = "50%"
+        coun = 1;
+        break;
+    case 1:
+        document.getElementById("show").classList.add("C");
+        document.getElementById("d").classList.add("no");
+        document.getElementById("slides").style.width = "100%"
+        coun = 1;
+        break;
+    default:
+        break;
+}
+
 }
 
     var count = 0;
@@ -176,6 +231,71 @@ function slideeRCont() {
             break;
         default:
             count = 4;
+            break;
+
+    }
+    count--;
+    console.log(document.getElementById("slides").children);
+    console.log(count);
+}
+
+function slideeLit() {
+    var s = document.getElementById("slides").children;
+    var donk = document.getElementById("donk").children;
+        switch (count) {
+            case 0:
+                s[0].classList.add("no");
+                s[1].classList.remove("no");
+                donk[0].classList.add("no");
+                donk[1].classList.remove("no");
+                break;
+            case 1:
+                s[1].classList.add("no");
+                s[2].classList.remove("no");
+                donk[1].classList.add("no");
+                donk[2].classList.remove("no");
+                break;
+            case 2:
+                s[2].classList.add("no");
+                s[0].classList.remove("no");
+                donk[2].classList.add("no");
+                donk[0].classList.remove("no");
+                count = -1;
+                break;
+            default:
+                count = -1;
+                break;
+
+        }
+        count++;
+    console.log(document.getElementById("slides").children);
+    console.log(count);
+}
+function slideeRLit() {
+    var s = document.getElementById("slides").children;
+    var donk = document.getElementById("donk").children;
+    switch (count) {
+        case 0:
+            s[0].classList.add("no");
+            s[2].classList.remove("no");
+            donk[0].classList.add("no");
+            donk[2].classList.remove("no");
+            count = 3;
+            break;
+        case 1:
+            s[1].classList.add("no");
+            s[0].classList.remove("no");
+            donk[1].classList.add("no");
+            donk[0].classList.remove("no");
+            break;
+        case 2:
+            s[2].classList.add("no");
+            s[1].classList.remove("no");
+            donk[2].classList.add("no");
+            donk[1].classList.remove("no");
+            break;
+        default:
+            count = 3;
             break;
 
     }
