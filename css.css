@@ -34,7 +34,19 @@
     width: 100%;
     text-align: center;
 }
+.flexx {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 9px;
+    margin-left: 9px;
+}
 
+.flexx > div {
+    width: 100%;
+    text-align: center;
+}
 .sect {
     padding: 9px;
     margin-top: 9px;
@@ -139,6 +151,8 @@
     padding: 9px;
 }
 
+
+        /*Cards*/
 .image-card-container {
     display: flex;
     justify-content: space-around;
@@ -242,7 +256,6 @@
 .center {
     text-align: center;
     font-size: 20px;
-    background-size: cover;
 }
 
 .ind {
@@ -282,7 +295,14 @@
 .cont{
     background-color: #015b97;
     height: 830px;
-    width: 1310px;
+    width: 60%;
+    transition: .9s;
+    z-index: 1;
+}
+.contt {
+    background-color: #015b97;
+    height: 830px;
+    width: 60%;
     transition: .9s;
     z-index: 1;
 }
@@ -304,6 +324,15 @@
     position: absolute;
 }
 .Photo {
+    height: 600px;
+    width: auto;
+    box-shadow: 5px 7px;
+    border: 3px groove white;
+    transition: 1s;
+    position: absolute;
+    background-color: white;
+}
+.Photoo {
     height: 600px;
     width: auto;
     box-shadow: 5px 7px;
@@ -337,4 +366,200 @@
     max-width: 37vw;
     transition: 1s;
     position: absolute;
+}
+
+.Cod {
+    height: auto;
+    max-width: 50vw;
+    position: absolute;
+    transition: .8s;
+    padding: 20px;
+    color: lightgrey;
+}
+.roww {
+    margin-left: 14vw;
+    margin-right: 14vw;
+}
+.rowww {
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+.pp {
+    margin-right: 3vw;
+}
+.picc {
+    transform: rotate(90deg);
+    width: 400px;
+    height: auto;
+}
+.piccc {
+    width: 400px;
+    height: auto;
+}
+.bord {
+    border-top: 3px solid #015b97;
+    padding-top: 60px;
+}
+.cent {
+    text-align: center;
+}
+.indd {
+    text-indent: 50px;
+}
+.C-O {
+    max-width: 30vw;
+}
+#res {
+    color: red;
+}
+
+@media screen and (min-width:1081px) and (max-width:1279px) {
+    .Photo {
+        height: 500px;
+    }
+    .Photoo {
+        height: 500px;
+    }
+
+}
+@media screen and (min-width:901px) and (max-width:1080px) {
+    .Photo {
+        height: 400px;
+    }
+    .Photoo {
+        height: 400px;
+    }
+
+}
+@media screen and (min-width:691px) and (max-width:900px) {
+    .Photo {
+        height: 300px;
+    }
+    .Photoo {
+        height: 300px;
+    }
+    .card {
+        width: 300px;
+    }
+}
+@media screen and (min-width:501px) and (max-width:690px) {
+    .Photo {
+        height: 200px;
+    }
+    .Photoo {
+        height: 200px;
+    }
+    .card {
+        width: 200px;
+    }
+    .picc {
+        width: 200px;
+    }
+    .piccc {
+        width: 200px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .picc {
+        display: none;
+    }
+    .piccc {
+        display: none;
+    }
+    .Photo {
+        display: none;
+    }
+    .Write {
+        display: none;
+    }
+    .cont {
+        display: none;
+    }
+    .Ca {
+        position: static;
+        opacity: 1;
+    }
+    .contain {
+        display: none;
+    }
+    .C-O {
+        max-width: 30vw;
+    }
+    .no {
+        z-index: 0;
+        opacity: 1;
+    }
+    #a{
+        font-size: 10px;
+        margin-top: 180px;
+        margin-right: 30px;
+        opacity: 1;
+        z-index: 1;
+    }
+    #b {
+        font-size: 10px;
+        margin-top: 180px;
+        opacity: 1;
+        z-index: 1;
+    }
+    #c {
+        font-size: 10px;
+        margin-top: 180px;
+        margin-right: 30px;
+        opacity: 1;
+        z-index: 1;
+    }
+    #d {
+        font-size: 10px;
+        margin-top: 180px;
+        opacity: 1;
+        z-index: 1;
+    }
+    #myNav button {
+        display: none;
+    }
+    #myNav {
+        margin-top: 0px;
+    }
+    .flexx {
+        flex-wrap: wrap;
+    }
+    .disease {
+        display: none;
+    }
+    .Writte {
+        position: relative;
+    }
+    .img {
+        display: block;
+        position: relative;
+        opacity: 1;
+    }
+    .Art {
+        margin-top: 145px;
+        max-height: 150px;
+    }
+    .contt {
+        background-color: white;
+    }
+    .Photoo {
+        opacity: 1;
+        position: relative;
+        max-height: 140px;
+        margin: 10px;
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
+    button {
+        z-index: 2;
+    }
+    #one {
+        margin-right: 40px;
+    }
+    #three {
+        margin-right: 40px;
+    }
+    .toppp {
+        margin-top: 150px;
+    }
 }
